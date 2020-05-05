@@ -1,0 +1,412 @@
+// default variables, remove when core theme is implemented
+@focus-outline: 3px solid orange;
+@primary-color: #078292;
+@ie8-max-width: 1024px;
+@device-width-medium: 520px;
+@body-text-font-size: 14px;
+
+.responsive-layout {
+    width: 100%;
+    margin: 0 auto;
+    @media all and (min-width:520px) {
+        width: 520px;
+    }
+    @media all and (min-width:760px) {
+        width: 100%;
+    }
+    @media all and (min-width:960px) {
+        width: 960px;
+    }
+}
+
+.visibility-hidden {
+    visibility: hidden!important;
+}
+
+.display-none {
+    display: none!important;
+}
+
+.accessibility.no-touch {
+    .focused,
+    button:focus,
+    select:focus,
+    textarea:focus,
+    a:focus,
+    input:focus + label {
+        outline: @focus-outline;
+    }
+}
+
+#accessibility-toggle {
+    position: absolute;
+    top: -1px;
+    left: -25px;
+    z-index: 0;
+
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    padding: 8px 10px 8px 10px;
+    margin: 0;
+    overflow: hidden;
+    .dir-rtl & {
+        right: -25px;
+        left: inherit;
+    }
+    &:focus {
+        top: 70px;
+        left: 10px;
+        z-index: 5000;
+
+        width: auto;
+        height: auto;
+
+        color: #fff;
+        border: 1px solid #fff;
+        background: @primary-color;
+        .dir-rtl & {
+            right: 10px;
+            left: inherit;
+        }
+    }
+}
+
+#wrapper {
+    padding-top: 0px;
+
+    .responsive-layout;
+}
+
+.drawer {
+    position: fixed;
+    top: 0;
+    right: -320px;
+    z-index: 501;
+
+    width: 320px;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+
+    -webkit-overflow-scrolling: touch;
+    .dir-rtl & {
+        right: inherit;
+        left: -320px;
+    }
+    .drawer-back {
+        float: left;
+        .dir-rtl & {
+            float: right;
+        }
+        &.show {
+            display: inline-block;
+        }
+    }
+    .drawer-close {
+        float: right;
+        .dir-rtl & {
+            float: left;
+        }
+    }
+    .drawer-inner {
+        height: 100%;
+    }
+    .drawer-item {
+        display: block;
+        width: 100%;
+    }
+    .drawer-item-open {
+        display: block;
+    }
+}
+
+.loading {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5000;
+
+    width: 100%;
+    height: 100%;
+    .dir-rtl & {
+        right: 0;
+        left: auto;
+    }
+    .loading-image {
+        position: absolute;
+        top: 50%;
+
+        width: 100%;
+        height: 100px;
+        margin-top: -50px;
+    }
+}
+
+.navigation {
+    position: fixed;
+    top: 0;
+    z-index: 500;
+
+    width: 100%;
+    height: 40px;
+
+    .responsive-layout;
+    .ie8 & {
+        max-width: @ie8-max-width;
+    }
+    .navigation-back-button {
+        float: left;
+        .dir-rtl & {
+            float: right;
+        }
+    }
+    .navigation-drawer-toggle-button {
+        float: right;
+        .dir-rtl & {
+            float: left;
+        }
+    }
+}
+
+// Notify styling
+// ==============
+
+.notify {
+    .notify-popup {
+        position: fixed;
+        top: 50%;
+        z-index: 550;
+
+        width: 100%;
+    }
+
+    .notify-popup-icon {
+        position: absolute;
+        top: 0;
+        left: 0;
+        .dir-rtl & {
+            right: 0;
+            left: inherit;
+        }
+        .icon {
+            @media all and (max-width:(@device-width-medium - 1px)) {
+                float: none;
+                margin: 0 auto;
+            }
+        }
+        @media all and (max-width:(@device-width-medium - 1px)) {
+            position: static;
+
+            float: none;
+            margin: 0 auto;
+        }
+    }
+
+    .notify-popup-content {
+        .responsive-layout
+        .ie8 & {
+            max-width: @ie8-max-width;
+            margin: 0 auto;
+        }
+    }
+
+    .notify-popup-content-inner {
+        position: relative;
+    }
+
+    .notify-popup-done {
+        display: inline-block;
+    }
+
+    .notify-shadow {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 549;
+
+        display: none;
+        width: 100%;
+        height: 100%;
+        .dir-rtl & {
+            right: 0;
+            left: inherit;
+        }
+    }
+}
+
+.component-container:before,
+.component-container:after {
+    display: block;
+    height: 0;
+    overflow: hidden;
+
+    content: "\0020";
+}
+.component-container:after {
+    clear: both;
+}
+.component-container {
+    zoom: 1;
+}
+
+.component-left {
+    float: none;
+    width: 100%;
+    @media all and (min-width:(@device-width-medium + 1px)) {
+        float: left;
+        width: 50%;
+        .component-inner {
+            //margin-right: 0.5%;
+        }
+    }
+}
+
+.component-right {
+    float: none;
+    width: 100%;
+    @media all and (min-width:(@device-width-medium + 1px)) {
+        float: right;
+        width: 50%;
+        .component-inner {
+            //margin-left: 0.5%;
+        }
+    }
+}
+
+/*TO ALLOW CHILDREN ELEMENTS TO BE POSITIONED ABSOLUTELY*/
+.component {
+    position: relative;
+}
+.block {
+    position: relative;
+}
+
+//jquery.a11y start
+/*INVISIBLE ARIA-LABELS*/
+.aria-label {
+    position: absolute !important;
+    left: 0 !important;
+    z-index: 1;
+
+    width: auto !important;
+    height: auto !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    overflow: auto !important;
+
+    font-size: 1px !important;
+    line-height: normal !important;
+
+    color: rgba(0,0,0,0) !important;
+    background: rgba(0,0,0,0) !important;
+
+    filter: progid:dximagetransform.Microsoft.Alpha(Opacity=0); /*IE8*/
+    &.relative {
+        position: relative !important;
+    }
+    &.rest-on-top {
+        top: 0 !important;
+    }
+}
+
+/*FORCE ARIA-LABELS TO HIDE ON HIDDEN*/
+.aria-label.aria-hidden {
+    display: none !important;
+}
+
+/*HIDDEN FOCUS GUARD*/
+#a11y-focusguard {
+    bottom: 0 !important;
+    left: 0 !important;
+    z-index: 1;
+
+    width: auto !important;
+    height: auto !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    overflow: auto !important;
+
+    font-size: 1px !important;
+    line-height: normal !important;
+
+    color: rgba(0,0,0,0) !important;
+    background: rgba(0,0,0,0) !important;
+
+    filter: progid:dximagetransform.Microsoft.Alpha(Opacity=0); /*IE8*/
+
+    /*IPAD: Stop accessibility cursor focusing until end of page;*/
+    .touch & {
+        position: relative !important;
+    }
+
+    /*DESTKOP: stop focus making window jump to bottom of page;*/
+    .no-touch & {
+        position: fixed !important;
+    }
+}
+
+/*HIDDEN FOCUS/ALERT ELEMENT */
+#a11y-selected,
+#a11y-selected * {
+    position: fixed !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    z-index: 1;
+
+    width: auto !important;
+    height: auto !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    overflow: auto !important;
+
+    font-size: 1px !important;
+    line-height: normal !important;
+
+    color: rgba(0,0,0,0) !important;
+    background: rgba(0,0,0,0) !important;
+
+    filter: progid:dximagetransform.Microsoft.Alpha(Opacity=0); /*IE8*/
+}
+
+/*FOCUS DISTRACTION*/
+#a11y-focuser {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    z-index: 1;
+
+    width: auto !important;
+    height: auto !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    overflow: auto !important;
+
+    font-size: 1px !important;
+    line-height: normal !important;
+
+    color: rgba(0,0,0,0) !important;
+    background: rgba(0,0,0,0) !important;
+
+    filter: progid:dximagetransform.Microsoft.Alpha(Opacity=0); /*IE8*/
+}
+
+
+.no-select {
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+
+     -khtml-user-select: none;
+    -webkit-touch-callout: none;
+}
+
+//Default margin for HTML paragraph
+
+body {
+    p {
+        margin-top: @body-text-font-size;
+        margin-bottom: @body-text-font-size;
+    }
+}

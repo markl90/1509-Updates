@@ -1,0 +1,75 @@
+{
+    "_defaultLanguage": "en",
+    "_defaultDirection": "ltr",
+    "_questionWeight": 1,
+    "_accessibility": {
+        "_isEnabled": false,
+        "_shouldSupportLegacyBrowsers": true,
+        "_isTextProcessorEnabled": true
+    },
+    "_drawer": {
+        "_showEasing": "easeOutQuart",
+        "_hideEasing": "easeInQuart",
+        "_duration": 400
+    },
+    "_spoor": {
+        "_isEnabled": true,
+        "_tracking": {
+            "_requireCourseCompleted": true,
+            "_requireAssessmentPassed": true,
+            "_shouldSubmitScore": true,
+            "_shouldStoreResponses": false,
+            "_shouldRecordInteractions": false,
+            "_bankId": 1
+        },
+        "_reporting": {
+            "_comment": "Your options here are 'completed', 'passed', 'failed', and 'incomplete'",
+            "_onTrackingCriteriaMet": "completed",
+            "_onAssessmentFailure": "incomplete",
+            "_resetStatusOnLanguageChange": false
+        }
+    },
+    "_sectionHeadings": {
+        "_isEnabled": true,
+        "throttle": 50
+    },
+    "_stickyHeader": {
+        "_isEnabled": false,
+        "throttle": 50
+    },
+    "_navButtons": {
+        "_isEnabled": true,
+        "gap": {
+            "small": 236,
+            "saba": 236,
+            "medium": 236,
+            "large": 236
+        },
+        "items": [
+            {
+                "text": "Previous",
+                "action": "prev"
+            },
+            {
+                "text": "Next",
+                "action": "next"
+            },
+            {
+                "text": "Help",
+                "action": "help"
+            },
+            {
+                "text": "",
+                "action": "progressbar"
+            }
+        ]
+    },
+    "_audio": {
+        "_isEnabled": false,
+        "_volume": "100",
+        "_preload":true
+    },
+    "_disableAnimationFor": [".ie8", ".iPhone.version-7\\.0"],
+    "build": {
+    }
+}

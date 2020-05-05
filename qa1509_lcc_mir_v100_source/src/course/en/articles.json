@@ -1,0 +1,217 @@
+[{
+        "_id": "a-00",
+        "_parentId": "co-00",
+        "_type": "article",
+        "_classes": "",
+        "title": "a-00",
+        "displayTitle": "",
+        "body": "",
+        "_trickle": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "a-05",
+        "_parentId": "co-05",
+        "_type": "article",
+        "_classes": "",
+        "title": "a-05",
+        "displayTitle": "",
+        "body": "",
+        "_trickle": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "a-10",
+        "_parentId": "co-10",
+        "_type": "article",
+        "_classes": "",
+        "title": "a-10",
+        "displayTitle": "",
+        "body": "",
+        "_trickle": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "a-15",
+        "_parentId": "co-15",
+        "_type": "article",
+        "_classes": "",
+        "title": "a-15",
+        "displayTitle": "",
+        "body": "",
+        "_trickle": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "a-20",
+        "_parentId": "co-20",
+        "_type": "article",
+        "_classes": "",
+        "title": "a-20",
+        "displayTitle": "",
+        "body": "",
+        "_trickle": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "a-25",
+        "_parentId": "co-25",
+        "_type": "article",
+        "_classes": "",
+        "title": "a-25",
+        "displayTitle": "",
+        "body": "",
+        "_trickle": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "a-30",
+        "_parentId": "co-30",
+        "_type": "article",
+        "_classes": "",
+        "title": "a-30",
+        "displayTitle": "",
+        "body": "",
+        "_trickle": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "a-35a-pre",
+        "_parentId": "co-35a",
+        "_type": "article",
+        "_classes": "",
+        "title": "a-35a-pre",
+        "displayTitle": "",
+        "body": "",
+        "_trickle": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "a-35a",
+        "_parentId": "co-35a",
+        "_type": "article",
+        "_classes": "",
+        "title": "a-35a",
+        "displayTitle": "",
+        "body": "",
+        "_assessment": {
+            "_isEnabled": true,
+            "_id": "a-35a",
+            "_isPercentageBased": true,
+            "_scoreToPass": 57,
+            "_includeInTotalScore": true,
+            "_assessmentWeight": 1,
+            "_banks": {
+                "_isEnabled": false,
+                "_split": "7,7",
+                "_randomisation": false
+            },
+            "_randomisation": {
+                "_isEnabled": true,
+                "_blockCount": 14
+            },
+            "_questions": {
+                "_resetType": "hard",
+                "_canShowFeedback": true,
+                "_canShowMarking": true,
+                "_canShowModelAnswer": false,
+                "_autoNumberTitle": {
+                    "_isEnabled": true,
+                    "pattern": "Question %current%"
+                }
+            },
+
+            "_isResetOnRevisit": true,
+            "_attempts": "infinite"
+        },
+        "_trickle": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "a-35a-post",
+        "_parentId": "co-35a",
+        "_type": "article",
+        "_classes": "",
+        "title": "a-35a-post",
+        "displayTitle": "",
+        "body": "",
+        "_trickle": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "a-35b-pre",
+        "_parentId": "co-35b",
+        "_type": "article",
+        "_classes": "",
+        "title": "a-35-pre",
+        "displayTitle": "",
+        "body": "",
+        "_trickle": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "a-35b",
+        "_parentId": "co-35b",
+        "_type": "article",
+        "_classes": "",
+        "title": "a-35",
+        "displayTitle": "",
+        "body": "",
+        "_assessment": {
+            "_isEnabled": true,
+            "_id": "a-35b",
+            "_isPercentageBased": true,
+            "_scoreToPass": 57,
+            "_includeInTotalScore": true,
+            "_assessmentWeight": 1,
+            "_banks": {
+                "_isEnabled": false,
+                "_split": "7,7",
+                "_randomisation": false
+            },
+            "_randomisation": {
+                "_isEnabled": true,
+                "_blockCount": 14
+            },
+            "_questions": {
+                "_resetType": "hard",
+                "_canShowFeedback": true,
+                "_canShowMarking": true,
+                "_canShowModelAnswer": false,
+                "_autoNumberTitle": {
+                    "_isEnabled": true,
+                    "pattern": "Question %current%"
+                }
+            },
+
+            "_isResetOnRevisit": true,
+            "_attempts": "infinite"
+        },
+        "_trickle": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id": "a-35b-post",
+        "_parentId": "co-35b",
+        "_type": "article",
+        "_classes": "",
+        "title": "a-35-post",
+        "displayTitle": "",
+        "body": "",
+        "_trickle": {
+            "_isEnabled": true
+        }
+    }
+]

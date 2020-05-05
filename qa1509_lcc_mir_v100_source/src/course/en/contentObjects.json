@@ -1,0 +1,230 @@
+[{
+        "_isAvailable": false,
+        "_isOptional": true,
+        "_bookmarking": {
+            "_isEnabled": false
+        },
+        "_id": "co-00",
+        "_parentId": "course",
+        "_type": "page",
+        "_classes": "",
+        "title": "",
+        "displayTitle": "",
+        "pageBody": "",
+        "body": "",
+        "_stickyHeader": {
+            "_isEnabled": false
+        },
+        "_graphic": {
+            "src": "course/en/images/menu/module1.jpg",
+            "alt": "Placeholder graphic."
+        },
+        "_pageLevelProgress": {
+            "_isEnabled": false,
+            "_showPageCompletion": false
+        },
+        "linkText": "View"
+    },
+    {
+        "_id": "co-05",
+        "_parentId": "course",
+        "_type": "page",
+        "_classes": "",
+        "title": "",
+        "displayTitle": "<span class='menu-item-counter menu-item-counter-normal-bg'>1</span><span class='menu-item-desc menu-item-desc-normal-bg'><b>Introduction</b></span>",
+        "pageBody": "",
+        "body": "",
+        "_stickyHeader": {
+            "_isEnabled": false
+        },
+        "_bookmarking": {
+            "_isEnabled": true
+        },
+        "_graphic": {
+            "src": "course/en/images/menu/module1.jpg",
+            "alt": "Placeholder graphic."
+        },
+        "_pageLevelProgress": {
+            "_isEnabled": true,
+            "_showPageCompletion": false
+        },
+        "linkText": "View"
+    },
+    {
+        "_id": "co-10",
+        "_parentId": "course",
+        "_type": "page",
+        "_classes": "",
+        "title": "",
+        "displayTitle": "<span class='menu-item-counter menu-item-counter-normal-bg'>2</span><span class='menu-item-desc menu-item-desc-normal-bg'><b>What does the law say?</b></span>",
+        "pageBody": "",
+        "body": "",
+        "_stickyHeader": {
+            "_isEnabled": false
+        },
+        "_bookmarking": {
+            "_isEnabled": true
+        },
+        "_graphic": {
+            "src": "course/en/images/menu/module2.jpg",
+            "alt": "Placeholder graphic."
+        },
+        "_pageLevelProgress": {
+            "_isEnabled": true,
+            "_showPageCompletion": false
+        },
+        "linkText": "View"
+    },
+    {
+        "_id": "co-15",
+        "_parentId": "course",
+        "_type": "page",
+        "_classes": "",
+        "title": "",
+        "displayTitle": "<span class='menu-item-counter menu-item-counter-normal-bg'>3</span><span class='menu-item-desc menu-item-desc-normal-bg'><b>Creating and storing information</b></span>",
+        "pageBody": "",
+        "body": "",
+        "_stickyHeader": {
+            "_isEnabled": false
+        },
+        "_bookmarking": {
+            "_isEnabled": true
+        },
+        "_graphic": {
+            "src": "course/en/images/menu/module3.jpg",
+            "alt": "Placeholder graphic."
+        },
+        "_pageLevelProgress": {
+            "_isEnabled": true,
+            "_showPageCompletion": false
+        },
+        "linkText": "View"
+    },
+    {
+        "_id": "co-20",
+        "_parentId": "course",
+        "_type": "page",
+        "_classes": "",
+        "title": "",
+        "displayTitle": "<span class='menu-item-counter menu-item-counter-normal-bg'>4</span><span class='menu-item-desc menu-item-desc-normal-bg'><b>Sharing and disposing of information</b></span>",
+        "pageBody": "",
+        "body": "",
+        "_stickyHeader": {
+            "_isEnabled": false
+        },
+        "_bookmarking": {
+            "_isEnabled": true
+        },
+        "_graphic": {
+            "src": "course/en/images/menu/module4.jpg",
+            "alt": "Placeholder graphic."
+        },
+        "_pageLevelProgress": {
+            "_isEnabled": true,
+            "_showPageCompletion": false
+        },
+        "linkText": "View"
+    },
+    {
+        "_id": "co-25",
+        "_parentId": "course",
+        "_type": "page",
+        "_classes": "",
+        "title": "",
+        "displayTitle": "<span class='menu-item-counter menu-item-counter-normal-bg'>5</span><span class='menu-item-desc menu-item-desc-normal-bg'><b>Using the system securely</b></span>",
+        "pageBody": "",
+        "body": "",
+        "_stickyHeader": {
+            "_isEnabled": false
+        },
+        "_bookmarking": {
+            "_isEnabled": true
+        },
+        "_graphic": {
+            "src": "course/en/images/menu/module5.jpg",
+            "alt": "Placeholder graphic."
+        },
+        "_pageLevelProgress": {
+            "_isEnabled": true,
+            "_showPageCompletion": false
+        },
+        "linkText": "View"
+    },
+    {
+        "_id": "co-30",
+        "_parentId": "course",
+        "_type": "page",
+        "_classes": "",
+        "title": "",
+        "displayTitle": "<span class='menu-item-counter menu-item-counter-normal-bg'>6</span><span class='menu-item-desc menu-item-desc-normal-bg'><b>Away from the office</b></span>",
+        "pageBody": "",
+        "body": "",
+        "_stickyHeader": {
+            "_isEnabled": false
+        },
+        "_bookmarking": {
+            "_isEnabled": true
+        },
+        "_graphic": {
+            "src": "course/en/images/menu/module6.jpg",
+            "alt": "Placeholder graphic."
+        },
+        "_pageLevelProgress": {
+            "_isEnabled": true,
+            "_showPageCompletion": false
+        },
+        "linkText": "View"
+    },
+    {
+        "_id": "co-35a",
+        "_isOptional": true,
+        "_parentId": "course",
+        "_type": "page",
+        "_classes": "assessment",
+        "title": "",
+        "displayTitle": "<span class='menu-item-counter menu-item-counter-normal-bg'>7</span><span class='menu-item-desc menu-item-desc-normal-bg'><b>Quiz</b></span>",
+        "pageBody": "",
+        "body": "",
+        "_stickyHeader": {
+            "_isEnabled": false
+        },
+        "_bookmarking": {
+            "_isEnabled": false
+        },
+        "_graphic": {
+            "src": "course/en/images/menu/module7.jpg",
+            "alt": "Placeholder graphic."
+        },
+        "_pageLevelProgress": {
+            "_isEnabled": true,
+            "_showPageCompletion": false
+        },
+        "linkText": "View"
+    },
+    {
+        "_id": "co-35b",
+        "_isOptional": true,
+        "_parentId": "course",
+        "_type": "page",
+        "_classes": "assessment",
+        "title": "",
+        "displayTitle": "<span class='menu-item-counter menu-item-counter-normal-bg'>7</span><span class='menu-item-desc menu-item-desc-normal-bg'><b>Quiz</b></span>",
+        "pageBody": "",
+        "body": "",
+        "_stickyHeader": {
+            "_isEnabled": false
+        },
+        "_bookmarking": {
+            "_isEnabled": false
+        },
+        "_graphic": {
+            "src": "course/en/images/menu/module7.jpg",
+            "alt": "Placeholder graphic."
+        },
+        "_pageLevelProgress": {
+            "_isEnabled": true,
+            "_showPageCompletion": false
+        },
+        "linkText": "View"
+    }
+]

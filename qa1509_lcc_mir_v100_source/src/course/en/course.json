@@ -1,0 +1,338 @@
+{
+    "_id": "course",
+    "_type": "course",
+    "_lockType": "",
+    "title": "Information Governance Training",
+    "displayTitle": "<b>Welcome</b>",
+    "description": "",
+    "body": "Welcome to this e-learning course on managing information. It will help you understand why managing information is so important, and explain what you need to do to handle information responsibly and safely. The course should take you approximately 40 minutes to complete.<br><br><span class='instruction'>Select a <b>module</b> to begin the course.</span>",
+    "_buttons": {
+        "_submit": {
+            "buttonText": "Submit",
+            "ariaLabel": "Submit your answer by clicking here."
+        },
+        "_reset": {
+            "buttonText": "Reset",
+            "ariaLabel": "Reset the question by clicking here."
+        },
+        "_showCorrectAnswer": {
+            "buttonText": "Correct answer",
+            "ariaLabel": "Show the correct answer by clicking here."
+        },
+        "_hideCorrectAnswer": {
+            "buttonText": "Your answer",
+            "ariaLabel": "Show the answer you gave by clicking here."
+        },
+        "_showFeedback": {
+            "buttonText": "Show feedback",
+            "ariaLabel": "View the question feedback again by clicking here."
+        },
+        "remainingAttemptsText": "attempts remaining",
+        "remainingAttemptText": "final attempt",
+        "disabledAriaLabel": "This button is disabled at the moment."
+    },
+    "_globals": {
+        "_components": {
+            "_accordion": {
+                "ariaRegion": "This component is an accordion comprised of collapsible content panels containing display text. Select the item titles to toggle the visibility of these content panels."
+            },
+            "_gmcq": {
+                "ariaRegion": "This component is a graphical multiple choice question. Once you have selected an option select the submit button below."
+            },
+            "_graphic": {
+                "ariaRegion": ""
+            },
+            "_hotgraphic": {
+                "ariaRegion": "Below is a component which allows you to select hot spots over an image. Select a hot spot to trigger a popup that includes an image with display text. Select the close button to close the popup.",
+                "ariaPopupLabel": "Hotgraphic popup"
+            },
+            "_matching": {
+                "ariaRegion": "This question component requires you to select the matching answer from a drop down list below. When you have selected your answers select the submit button."
+            },
+            "_mcq": {
+                "ariaRegion": "This component is a multiple choice question. Once you have selected an option select the submit button below"
+            },
+            "_media": {
+                "ariaRegion": "This is a media component which plays a video. Select the play / pause button to watch or listen.",
+                "transcriptButton": "Alternatively you can select the link below for the transcript."
+            },
+            "_narrative": {
+                "ariaRegion": "This component displays an image gallery with accompanying text. Use the next and back navigation controls to work through the narrative."
+            },
+            "_slider": {
+                "ariaRegion": "This component requires you to answer the question by selecting the relevant value. After selecting a value select the submit button below."
+            },
+            "_text": {
+                "ariaRegion": ""
+            },
+            "_textinput": {
+                "ariaRegion": "This question component requires you to input your answer in the textbox provided. When you have answered the question select the submit button below."
+            },
+            "_yesnoTable": {
+                "ariaRegion": "This question component is a Yes No table, select an option for each row then select submit button below.",
+                "_accAnswer": {
+                    "correctAnswerPrefix": "Correct answer is: ",
+                    "myAnswerPrefix": "Your answer is: ",
+                    "_pattern": {
+                        "correctAnswer": "%itemPrefix% %text% %selection% %choice%.",
+                        "myAnswer": "%itemPrefix% %text% %selectionPrefix% %selection% %choice%, %ratingPrefix% %_rating%."
+                    },
+                    "itemPrefix": "Option",
+                    "selectionPrefix": "You have",
+                    "selection": "Selected",
+                    "ratingPrefix": "this is",
+                    "_rating": {
+                        "correct": "Correct",
+                        "incorrect": "Incorrect"
+                    }
+                }
+            }
+        },
+        "_extensions": {
+            "_pageLevelProgress": {
+                "pageLevelProgress": "Page sections",
+                "pageLevelProgressIndicatorBar": "",
+                "pageLevelProgressMenuBar": "You have completed ",
+                "pageLevelProgressEnd": "You have reached the end of the list of page sections.",
+                "optionalContent": "Optional Content"
+            }
+        },
+        "_menu": {
+            "_boxmenu": {
+                "ariaRegion": "Menu",
+                "durationLabel": "Duration:",
+                "menuItem": "Menu item.",
+                "menuEnd": "You have reached the end of the menu.",
+                "_audio": "course/en/audio/00_00_002.mp3"
+            }
+        },
+        "_accessibility": {
+            "accessibilityToggleTextOn": "Turn accessibility on?",
+            "accessibilityToggleTextOff": "Turn accessibility off?",
+            "_accessibilityInstructions": {
+                "touch": "Usage instructions. Use swipe right for next. Use swipe left for previous. Use a double tap to select. Use a two finger slide up to go to the top of the page.",
+                "notouch": "Usage instructions. Use tab for next. Use shift tab for previous. Use enter to select. Use escape to go to the top of the page.",
+                "ipad": "Usage instructions for touchscreens. Use swipe right for next. Use swipe left for previous. Use a double tap to select. Use a two finger slide up to go to the top of the page. Usage instructions for keyboard access. Use right for next. Use left for previous. Use up and down together to select."
+            },
+            "_ariaLabels": {
+                "navigation": "Course navigation bar",
+                "menuLoaded": "Menu Loaded.",
+                "menu": "Menu",
+                "page": "Page",
+                "pageLoaded": "Page Loaded.",
+                "pageEnd": "You have reached the end of the page.",
+                "previous": "Back",
+                "navigationBack": "Navigate back",
+                "navigationDrawer": "Open course resources.",
+                "close": "Close",
+                "closeDrawer": "Close Drawer",
+                "closeResources": "Close resources",
+                "resourcesEnd": "You have reached the end of the list of resources.",
+                "drawerBack": "Back to drawer",
+                "drawer": "Top of side drawer",
+                "closePopup": "Close popup",
+                "next": "Next",
+                "done": "Done",
+                "complete": "Completed",
+                "incomplete": "Incomplete",
+                "incorrect": "Incorrect",
+                "correct": "Correct",
+                "locked": "Locked",
+                "accessibilityToggleButton": "By selecting this button you can set whether accessibility is turned on or off",
+                "feedbackPopUp": "Popup opened.",
+                "menuBack": "Back to menu",
+                "visited": "Visited"
+            }
+        },
+        "_stickyHeader": {
+            "title": "Information Governance Training",
+            "menuTitle": "Information Governance Training"
+        },
+        "_sections": [
+            {
+                "_id": "co-10",
+                "title": "What does the law say?"
+            },
+            {
+                "_id": "co-15",
+                "title": "Creating and storing information"
+            },
+            {
+                "_id": "co-20",
+                "title": "Sharing and disposing of information"
+            },
+            {
+                "_id": "co-25",
+                "title": "Using the system securely"
+            },
+            {
+                "_id": "co-30",
+                "title": "Away from the office"
+            }
+        ],
+        "_audio": {
+            "_isEnabled": false
+        }
+    },
+    "_pageLevelProgress": {
+        "_isEnabled": true,
+        "_altText": "of components completed on this page."
+    },
+    "_resources": {
+        "_isEnabled": true,
+        "title": "Resources",
+        "description": "View resources for this course by clicking here.",
+        "_filterButtons": {
+            "all": "All",
+            "document": "Document",
+            "media": "Media",
+            "link": "Link"
+        },
+        "_filterAria": {
+            "allAria": "View all resources",
+            "documentAria": "View document resources",
+            "mediaAria": "View media resources",
+            "linkAria": "View resource links"
+        },
+        "itemAriaExternal": "This content will open in a new window",
+        "_resourcesItems": [
+            {
+                "_type": "document",
+                "title": "Vanilla Theme Swatch",
+                "description": "See the swatch for the default vanilla by clicking here.",
+                "_link": "course/en/images/vanilla-swatch.jpg"
+            },
+            {
+                "_type": "media",
+                "title": "Adapt Learning YouTube Channel",
+                "description": "Fancy catching up on some Adapt material? Click here.",
+                "_link": "https://www.youtube.com/channel/UCW8SlSFuCc--B66Gf9fAEcQ"
+            },
+            {
+                "_type": "link",
+                "title": "Community Site",
+                "description": "View our community site by clicking here.",
+                "_link": "https://community.adaptlearning.org"
+            }
+        ]
+    },
+    "_help": {
+        "_isEnabled": true,
+        "title": "Help",
+        "description": "<table><tr><th>Menu</th></tr><tr><th><img src='course/en/images/misc/ico-menu.png'></th></tr><tr><td>Select the <b>Menu</b> to return to the course menu.</td></tr><tr><th>Previous</th></tr><tr><th><img src='course/en/images/misc/ico-back.png'></th></tr><tr><td>Select the <b>Previous</b> button to move back to the start of the previous screen.</td></tr><tr><th>Next</th></tr><tr><th><img src='course/en/images/misc/ico-next.png'></th></tr><tr><td>Select the <b>Next</b> button to move forward to the start of the next screen.</td></tr><tr><th>Help</th></tr><tr><th><img src='course/en/images/misc/ico-help.png'></th></tr><tr><td>Select the <b>Help</b> button for instructions on how to navigate this course.</td></tr><tr><th>Progressbar</th></tr><tr><th><img src='course/en/images/misc/ico-progressbar.png'></th></tr><tr><td><b>Progressbar</b> tells you the screen you are in and the total number of screens in a module.</td></tr></table>",
+        "_helpItems": [
+            {
+                "_type": "content",
+                "title": "",
+                "description": ""
+            },
+            {
+                "_type": "content",
+                "title": "",
+                "description": ""
+            }
+        ]
+    },
+    "_glossary": {
+        "_isEnabled": true,
+        "title": "Glossary",
+        "description": "",
+        "_glossaryItems": [
+            {
+                "abbr": "B",
+                "title": "Baiting",
+                "desc": "<p>When an attacker leaves a physical device, such as a USB flash drive, CD or DVD in a place it is sure to be found. The finder then picks up the device and loads it onto his or her computer, unintentionally installing the malware.</p>"
+            },
+            {
+                "abbr": "C",
+                "title": "Consent",
+                "desc": "<p>Where consent is required it must be specific, informed, unambiguous, and affirmative. An example of where consent would be required is where the council would like to be able to use the personal data holds for marketing purposes.</p>"
+            },
+            {
+                "abbr": "CC",
+                "title": "Cybercrime",
+                "desc": "<p>Criminal activity that involves the internet, a computer system or computer technology.</p>"
+            },
+            {
+                "abbr": "DPO",
+                "title": "The Data Protection Officer",
+                "desc": "<p>A designated person who is responsible for overseeing the data protection responsibilities within an organisation and ensuring compliance with the GDPR.</p>"
+            },
+            {
+                "abbr": "EIR",
+                "title": "Environmental Information Regulations",
+                "desc": "<p>This is often referred to as the EIR and under this public authorities have a legal obligation to provide information about the environment through an approved publication scheme and in response to requests.</p>"
+            },
+            {
+                "abbr": "FOIA2000",
+                "title": "The Freedom of Information Act 2000",
+                "desc": "<p>The Freedom of Information Act gives the public a right of access to all types of recorded information held by public authorities. Its aim is to promote openness in the public sector. The act helps the public get a better understanding of how public authorities carry out their duties, why they make their decisions and how they spend their money.</p>"
+            },
+            {
+                "abbr": "GDPR",
+                "title": "The General Data Protection Regulation (GDPR)",
+                "desc": "<p>The <b>General Data Protection Regulation (GDPR)</b> is a regulation to strengthen and unify data protection for all individuals within the European Union (EU) and the UK. It also addresses the export of personal data. The GDPR aims primarily to give control back to citizens and residents over their personal data and to simplify the regulatory environment for international business by unifying the regulations. The GDPR replaces the Data Protection Act.</p>"
+            },
+            {
+                "abbr": "ICO",
+                "title": "Information Commissioner",
+                "desc": "<p>Referred to as the ICO, the Information Commissioner's Office is responsible for regulating compliance with the General Data Protection Regulation (GDPR) and data protection legislation, the Freedom of Information Act (FOIA) and the Environmental Information Regulations (EIR).</p>"
+            },
+            {
+                "abbr": "IGO",
+                "title": "Information Governance Officer",
+                "desc": "<p>This is a member of staff who is responsible for answering questions about the Freedom of Information Act, and advising staff on the General Data Protection Regulation and other important information governance issues.</p>"
+            },
+            {
+                "abbr": "MW",
+                "title": "Malware",
+                "desc": "<p>Malware is malicious software designed to infiltrate or damage a computer system.</p>"
+            },
+            {
+                "abbr": "PN",
+                "title": "Privacy Notice",
+                "desc": "<p>People must be told who is using their data, who the <a href='javascript:void(0);' class='inlineglossary' title='DPO'>Data Protection Officer</a> is, what their data is being used for and what the legal basis for this is.<br><br>The Data Protection Officer (DPO) is a designated person who is responsible for overseeing the data protection responsibilities within an organisation and ensuring compliance with the GDPR.<br><br>They also need to know who will have access to their data, how long we intend to keep it for and if we intend to transfer it abroad.<br><br>They also need to be told about most of their individual rights, and even if we’ve had consent from them to use their data they can withdraw that consent at any time; in addition they have the right to complain to the Information Commissioner’s Office (ICO) if they’re not happy with how we are dealing with their data, to know whether they have to provide it at all and whether any decisions will be made automatically.<br><br>If we then want to use their data for another purpose then before we do we need to give them information about what that other purpose is, and update the information we’ve already given them.<br><br>If we obtained their data from someone else we usually have to tell them what type of data it is, and the source.</p>"
+            },
+            {
+                "abbr": "SE",
+                "title": "Social engineering",
+                "desc": "<p>When somebody lies to somebody else to gain access to privileged or sensitive data.</p>"
+            },
+            {
+                "abbr": "SP",
+                "title": "Spear phishing",
+                "desc": "<p>Spear phishing is a form of phishing where there is a particular target, usually for obtaining specific information, and vishing is an attempt to gain personal information on the phone.</p>"
+            },
+            {
+                "abbr": "V",
+                "title": "Vishing",
+                "desc": "<p>Spear phishing is a form of phishing where there is a particular target, usually for obtaining specific information, and vishing is an attempt to gain personal information on the phone.</p>"
+            }
+        ]
+    },
+    "_assessment": {
+        "_requireAssessmentPassed": true,
+        "_postTotalScoreToLms": false,
+        "_isPercentageBased": true,
+        "_scoreToPass": 57,
+        "_passWithAnyScore": true,
+        "_passWithSubtractiveScore": true,
+        "_bankId": 0
+    },
+    "_bookmarking": {
+        "_isEnabled": true,
+        "_level": "block",
+        "title": "Bookmarking",
+        "body": "Would you like to continue where you left off?",
+        "_buttons": {
+            "yes": "Yes",
+            "no": "No"
+        }
+    },
+    "_start": {
+        "_isEnabled": false,
+        "_id": "co-00",
+        "_force": true
+    },
+    "_latestTrackingId": 109
+}
